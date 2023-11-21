@@ -15,6 +15,8 @@ function main(params) {
 
     let dbListPromise = getDbs(cloudant);
     return dbListPromise;
+
+    
 }
 
 function getDbs(cloudant) {
